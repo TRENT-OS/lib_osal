@@ -10,6 +10,8 @@ System_getTickCount(void)
 {
     /// not implemented
     Debug_ASSERT(false);
+
+    return 0;
 }
 
 INLINE unsigned long long
@@ -18,6 +20,7 @@ System_upTimeMs(void)
     /// not implemented
     Debug_ASSERT(false);
 
+    return 0;
 }
 
 INLINE void
