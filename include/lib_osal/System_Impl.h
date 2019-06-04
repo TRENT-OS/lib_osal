@@ -9,7 +9,7 @@ INLINE unsigned long long
 System_getTickCount(void)
 {
     /// not implemented
-    Debug_ASSERT(false);
+    //Debug_ASSERT(false);
 
     return 0;
 }
