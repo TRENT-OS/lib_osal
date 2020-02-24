@@ -1,5 +1,7 @@
-#ifndef SYSTEM_IMPL_H
-#define SYSTEM_IMPL_H
+/*
+ *  Copyright (C) 2019, Hensoldt Cyber GmbH
+ */
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {
@@ -33,6 +35,3 @@ System_delayTicks(unsigned long ticks)
 #ifdef __cplusplus
 }
 #endif
-
-#endif /* SYSTEM_IMPL_H */
-

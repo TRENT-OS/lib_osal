@@ -1,6 +1,8 @@
-#if !defined(SYSTEM_H)
-#define SYSTEM_H
+/*
+ *  Copyright (C) 2019, Hensoldt Cyber GmbH
+ */
 
+#pragma once
 
 /* Includes ------------------------------------------------------------------*/
 
@@ -34,12 +36,6 @@ System_upTimeMs(void);
  * dependent
  * @see System_safeDlyMs
  */
-void
-System_delayMs(unsigned long ms);
+void System_delayMs(unsigned long ms);
 
-void
-System_delayTicks(unsigned long ticks);
-
-
-#endif
-
+void System_delayTicks(unsigned long ticks);

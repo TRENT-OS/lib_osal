@@ -1,3 +1,6 @@
+/*
+ *  Copyright (C) 2019, Hensoldt Cyber GmbH
+ */
 /**
  * @addtogroup OSAL
  * @{
@@ -5,8 +8,7 @@
  *
  */
 
-#if !defined(MUTEX_H)
-#define MUTEX_H
+#pragma once
 
 #include "lib_osal/Mutex_Impl.h"
 #include <stdbool.h>
@@ -82,6 +84,5 @@ Mutex_release(Mutex* self);
 bool
 Mutex_tryAcquire(Mutex* self);
 
-#endif
 ///@}
 
