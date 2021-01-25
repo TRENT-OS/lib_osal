@@ -36,3 +36,15 @@ target_link_libraries(${PROJECT_NAME}
         os_core_api
         lib_debug
 )
+
+#-------------------------------------------------------------------------------
+# MOCKS
+#-------------------------------------------------------------------------------
+if (BUILD_TESTING)
+    add_library("${PROJECT_NAME}_mocks" INTERFACE)
+
+    target_include_directories("${PROJECT_NAME}_mocks"
+        INTERFACE
+            "include"
+    )
+endif ()
