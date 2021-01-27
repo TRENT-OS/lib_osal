@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2019, Hensoldt Cyber GmbH
+ *  Copyright (C) 2019, HENSOLDT Cyber GmbH
  */
 #include "lib_osal/Mutex.h"
 #include "lib_debug/Debug.h"
