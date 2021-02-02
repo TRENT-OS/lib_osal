@@ -2,7 +2,7 @@
  *  Copyright (C) 2019, HENSOLDT Cyber GmbH
  */
 /**
- * @addtogroup OSAL
+ * @addtogroup lib_osal
  * @{
  * @file Mutex.h
  *
