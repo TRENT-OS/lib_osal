@@ -29,10 +29,3 @@ Mutex_release(Mutex* self)
     int err = self->unlock();
     Debug_ASSERT(!err);
 }
-
-bool
-Mutex_tryAcquire(Mutex* self)
-{
-    // not implemented
-    Debug_ASSERT(false);
-}

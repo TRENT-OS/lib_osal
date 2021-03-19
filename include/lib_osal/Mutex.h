@@ -73,16 +73,5 @@ Mutex_acquire(Mutex* self);
 void
 Mutex_release(Mutex* self);
 
-/**
- * Tries to acquire the mutex without blocking if no resources are available.
- *
- * @param mutex the mutex to acquire.
- * @return true if the mutex is acquired, false otherwise.
- *
- * @memberof Mutex
- */
-bool
-Mutex_tryAcquire(Mutex* self);
-
 ///@}
 
