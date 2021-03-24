@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2019, HENSOLDT Cyber GmbH
+ *  Copyright (C) 2019-2021, HENSOLDT Cyber GmbH
  */
 /**
  * @addtogroup lib_osal
@@ -9,14 +9,14 @@
  */
 #pragma once
 
-typedef int (*SeosMutex_LockT)(void);
+typedef int (*OS_Mutex_LockT)(void);
 
-typedef int (*SeosMutex_UnlockT)(void);
+typedef int (*OS_Mutex_UnlockT)(void);
 
-typedef struct SeosMutex
+typedef struct OS_Mutex
 {
-    SeosMutex_LockT lock;
-    SeosMutex_UnlockT unlock;
+    OS_Mutex_LockT lock;
+    OS_Mutex_UnlockT unlock;
 } Mutex;
 
 ///@}
