@@ -2,6 +2,7 @@
  *  Copyright (C) 2019, HENSOLDT Cyber GmbH
  */
 #include "lib_osal/Mutex.h"
+#include "lib_compiler/compiler.h"
 #include "lib_debug/Debug.h"
 
 bool
@@ -19,13 +20,13 @@ Mutex_dtor(Mutex* self)
 void
 Mutex_acquire(Mutex* self)
 {
-    int err = self->lock();
+    DECL_UNUSED_VAR(const int err) = self->lock();
     Debug_ASSERT(!err);
 }
 
 void
 Mutex_release(Mutex* self)
 {
-    int err = self->unlock();
+    DECL_UNUSED_VAR(const int err) = self->unlock();
     Debug_ASSERT(!err);
 }

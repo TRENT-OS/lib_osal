@@ -33,6 +33,7 @@ endif ()
 
 target_link_libraries(${PROJECT_NAME}
     INTERFACE
+        lib_compiler
         lib_debug
 )
 
