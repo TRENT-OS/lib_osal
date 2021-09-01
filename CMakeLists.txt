@@ -1,5 +1,5 @@
 #
-# The Operating System Abstraction Layer Library
+# Operating System Abstraction Layer Library
 #
 # Copyright (C) 2020, HENSOLDT Cyber GmbH
 #
